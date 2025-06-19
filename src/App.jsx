@@ -16,7 +16,7 @@ function App() {
           <select
             value={position}
             onChange={(e) => setPosition(e.target.value)}
-            className="mt-2 p-2 rounded"
+            className={`mt-2 p-2 rounded ${theme ? "bg-gray-900  text-white border" : "bg-white border text-gray-600"}`}
           >
             <option value="top-right">Top Right</option>
             <option value="top-left">Top Left</option>

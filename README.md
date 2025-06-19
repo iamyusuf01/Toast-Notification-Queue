@@ -4,6 +4,11 @@ npm install
 
 run file - npm run dev
 
+This Website Created With GenAI 
+Most of the Code creating with GenAI 
+
+GenAI - ChatGPT, Grok
+
 The code above defines a React context and provider for managing toast notifications in an application. It uses React’s Context API to allow any component in the component tree to trigger toast messages without prop drilling. The ToastContext is created using createContext(), and the ToastProvider component wraps its children with this context, exposing an addToast function.
 
 Inside ToastProvider, the toasts state holds an array of active toast notifications. The addToast function allows new toasts to be added, each with a unique id, a message, a type (such as "info" or "error"), a duration for how long the toast should be visible, and an optional undoAction callback. The removeToast function removes a toast by its id.
