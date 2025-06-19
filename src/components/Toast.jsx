@@ -30,7 +30,7 @@ const Toast = ({ message, type, onClose, duration, onUndo, position }) => {
     <div
       role="alert"
       aria-live="polite"
-      className={`flex w-42 justify-between items-center p-4 rounded-lg shadow-lg text-white transition-opacity duration-300 ${
+      className={`flex w-42  justify-between items-center p-4 rounded-lg shadow-lg text-white transition-opacity duration-300 ${
         type === "success"
           ? "bg-green-500"
           : type === "error"

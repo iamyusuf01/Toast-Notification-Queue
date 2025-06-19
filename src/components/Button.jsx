@@ -8,7 +8,7 @@ const Button = ({setTheme}) => {
   };
 
   return (
-    <div className="p-4">
+    <div className="p-4 grid grid-cols-4 md:grid lg:grid text-sm text-center">
       <button
         onClick={() => addToast("Success!", "success", 3000, handleUndo)}
         className="bg-green-500 text-white px-4 py-2 rounded mr-2 hover:scale-105 duration-200"
