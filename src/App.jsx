@@ -5,7 +5,7 @@ import { useState } from "react";
 function App() {
   const [theme, setTheme] = useState(false);
   const [position, setPosition] = useState("top-right");
-  console.log(theme);
+
   return (
     <div >
       <ToastProvider position={position}>
